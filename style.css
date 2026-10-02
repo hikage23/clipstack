@@ -1,0 +1,13 @@
+:root { color-scheme: light dark; }
+body {
+    margin: 0;
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+    background: Canvas;
+    color: CanvasText;
+}
+main { max-width: 680px; margin: 0 auto; padding: 48px 24px 64px; }
+h1 { font-size: 2rem; margin: 0 0 8px; }
+h2 { font-size: 1.25rem; margin-top: 2em; }
+h3 { font-size: 1.05rem; margin-bottom: 0.25em; }
+a { color: #4D78F0; }
+.muted { color: GrayText; font-size: 0.9rem; }
