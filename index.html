@@ -9,14 +9,22 @@
 <body>
 <main>
 <h1>ClipStack</h1>
-<p>A private clipboard history for iPhone and iPad. Encrypted, on-device, and gone when you want it gone.</p>
+<p>A private clipboard history for iPhone and iPad. Encrypted, on-device, and gone when you want it gone. No servers, no accounts, no analytics: your history never leaves your device.</p>
 
 <h2>Set up the keyboard</h2>
 <ol>
 <li>Open Settings → General → Keyboard → Keyboards → Add New Keyboard, and choose ClipStack.</li>
-<li>Tap ClipStack and turn on Allow Full Access. The keyboard types without it, but iOS requires it for any keyboard to read the clipboard. ClipStack has no network code.</li>
-<li>Copy some text, then switch to ClipStack with the globe key. Tap an item to type it.</li>
+<li>Tap ClipStack and turn on Allow Full Access. The keyboard types without it, but iOS requires it for any keyboard to read the clipboard or play key sounds and haptics. ClipStack has no network code.</li>
+<li>Copy some text, then switch to ClipStack with the globe key. What you copied appears in the bar above the keys; tap it to paste. Tap the clipboard icon at the left of the bar for your whole history.</li>
+<li>Optional: tap Edit in the Keyboards list and drag ClipStack to the top to make it your main keyboard.</li>
 </ol>
+
+<h2>Typing</h2>
+<p>The ClipStack keyboard is built to feel like the iOS keyboard: the same layout, key popups, accents (touch and hold a letter), sounds and haptics, autocorrect, predictions, your text replacements, caps lock (double-tap shift), the double-space period, a cursor trackpad (touch and hold the space bar) and slide to type. In the app, Settings → How to Use ClipStack shows an animated tour.</p>
+<p>Keyboards can't read the iOS keyboard settings, so ClipStack has its own copies with the same defaults in Settings → Keyboard → Typing &amp; Feedback.</p>
+
+<h3>What can't a third-party keyboard do?</h3>
+<p>iOS shows its own keyboard in password and phone-number fields, keeps dictation and the emoji keyboard to itself (use the globe key to reach them), and doesn't let keyboards draw outside their own area, so ClipStack offers autocorrect undo in the suggestion bar instead of a bubble over your text.</p>
 
 <h2>Add the Control Center button</h2>
 <p>Open Control Center, touch and hold an empty area, tap Add a Control, and choose ClipStack. You can also assign it in Settings → Action Button → Controls.</p>
@@ -28,14 +36,28 @@
 <h3>Why didn't something I copied get saved?</h3>
 <p>ClipStack skips passwords, one-time codes, card numbers and API keys by default. You can change this in Settings → Never save. Items also delete themselves after the time set in Settings → Auto-delete after.</p>
 
+<h3>Where does my data go?</h3>
+<p>Nowhere. ClipStack has no servers, no accounts and no analytics, and it contains no networking code, so nothing you copy or type is ever sent to us or anyone else. ClipStack saves only two things: your encrypted clipboard history and your settings, both on this device.</p>
+<p>A few things are handled by iOS itself, as they are for every app:</p>
+<ul>
+<li><strong>Words you keep.</strong> When you undo an autocorrection or tap your exact spelling, iOS's spell checker remembers that word on your device, just as it does for Apple's keyboard. Clear them in Settings › General › Transfer or Reset iPhone › Reset › Reset Keyboard Dictionary.</li>
+<li><strong>Settings in backups.</strong> Your ClipStack settings, never your content, are part of your device backup.</li>
+<li><strong>Purchases.</strong> The trial and unlock go through Apple's App Store, never to us.</li>
+<li><strong>Crash reports.</strong> Only if you share them with developers in iOS Settings, and they never contain your content.</li>
+</ul>
+<p>See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+
 <h3>Does my history sync between devices?</h3>
-<p>No. History never leaves the device it was copied on and isn't included in backups.</p>
+<p>No. History never leaves the device it was copied on. It never syncs to iCloud or your other devices, isn't included in backups, and items you copy from ClipStack never go to Universal Clipboard.</p>
 
 <h3>How do the trial and purchase work?</h3>
 <p>The 7-Day Trial is free and never charges or renews. After it ends, a one-time purchase unlocks ClipStack forever on every device signed in to your Apple Account. Use Restore Purchases in Settings if you reinstall.</p>
 
 <h3>How do I erase everything?</h3>
 <p>Settings → Erase everything now, or tap the trash key twice in the keyboard. This deletes the history and destroys its encryption key.</p>
+
+<h3>Credits</h3>
+<p>Autocorrect and predictions use word frequencies from <a href="https://github.com/hermitdave/FrequencyWords">FrequencyWords</a> by Hermit Dave, based on OpenSubtitles, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
 
 <h2>Contact</h2>
 <p><a href="mailto:clipstack_support.hate028@simplelogin.com">clipstack_support.hate028@simplelogin.com</a></p>
